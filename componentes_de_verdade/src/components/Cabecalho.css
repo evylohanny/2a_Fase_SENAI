@@ -1,3 +1,9 @@
 .Cabecalho-container{
-    background-color: rgb(0, 0, 0);
+    /* background-color: lightblue; */
+    background-color: var(--cor-4);
+    color: var(--cor-5);
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
