@@ -5,18 +5,36 @@
 // concedido. Nenhum dos valores informados pode ser zero ou negativo.
 
 import { useState } from "react"
+import './Media.css'
 
 function Ex3() {
 
     const [resultado, setResultado] = useState()
 
-    function (){
-        
+    function clique(){
+      let salario = Number(prompt("Digite seu salário: "))
+      let emprestimo = Number(prompt("Digite o valor do empréstimo: "))
+      let prestacoes = Number(prompt("Digite o número de prestações: "))
+      let calculoemprestimo = emprestimo / prestacoes
+      let porcentagem = calculoemprestimo * 100 / salario
+
+      if(salario <= 0 || emprestimo <= 0 || prestacoes <= 0){
+        setResultado("Campos digitados inválidos ou não preenchidos")
+
+      }else if(porcentagem <= 30){
+        setResultado("Empréstimo Concedido!")
+
+      }else if(porcentagem > 30){
+        setResultado("Empréstimo Recusado!")
+
+      }
     }
 
   return (
-    <div>
-      
+    <div className="Media-Container">
+      <button onClick={clique}>Clique aqui</button>
+      <br />
+      {resultado}
     </div>
   )
 }
