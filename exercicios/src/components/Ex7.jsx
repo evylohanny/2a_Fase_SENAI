@@ -24,7 +24,7 @@ function Ex7() {
 
   return (
     <div className="Media-Container">
-      <button onClick={ler}>Ler Valor</button>
+      <button onClick={ler}>Cofrinho</button>
 
     </div>
   )

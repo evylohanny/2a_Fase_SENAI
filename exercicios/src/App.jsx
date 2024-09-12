@@ -6,7 +6,6 @@ import Ex2 from './components/Ex2'
 import Ex3 from './components/Ex3'
 import Ex5 from './components/Ex5'
 import Ex6 from './components/Ex6'
-import Ex7 from './components/Ex7'
 
 function App() {
 
@@ -31,9 +30,6 @@ function App() {
       <br />
       <br />
       <Ex6 />
-      <br />
-      <br />
-      <Ex7 />
     </>
   )
 }

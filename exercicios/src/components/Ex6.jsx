@@ -28,25 +28,25 @@ function Ex6() {
 
         switch(true){
 
-            case media >= 9 || media == 10:
+            case media >= 9 && media == 10:
                 setResultado("A")
                 setMedia(media)
                 setNotas(nota1 + " , " + nota2)
                 break
 
-            case media >= 7.5 || media < 9:
+            case media >= 7.5 && media < 9:
                 setResultado("B")
                 setMedia(media)
                 setNotas(nota1 + " , " + nota2)
                 break
 
-            case media >= 6 || media < 7.5:
+            case media >= 6 && media < 7.5:
                 setResultado("C")
                 setMedia(media)
                 setNotas(nota1 + " , " + nota2)
                 break
 
-            case media >= 4 || media < 6:
+            case media >= 4 && media < 6:
                 setResultado("D")
                 setMedia(media)
                 setNotas(nota1 + " , " + nota2)
