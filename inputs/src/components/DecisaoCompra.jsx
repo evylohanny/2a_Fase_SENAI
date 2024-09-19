@@ -6,7 +6,7 @@ import Sim from "./Sim"
 
 function DecisaoCompra() {
     const [preco, setPreco] = useState()
-    const [saldo, useSaldo] = useState()
+    const [saldo, setSaldo] = useState()
     const [sim, setSim] = useState(false)
     const [nao, setNao] = useState(false)
 
