@@ -25,7 +25,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  /* place-items: center; */
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,30 +65,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-.input{
-  background-color: rgba(255, 0, 0, 0);
-  width: 250px;
-  border: none;
-  border-bottom: 2px solid #646cff;
-  margin-top: 5px;
-}
-
-.input:focus{
-  outline: none;
-  font-family: 'Poppins' , sans-serif;
-  color: #646cff;
-  font-size: 15px;
-}
-
-button:hover{
-  transition: 1s;
-  transform: scale(1.1);
-  background-color: #646cff;
-  color: white;
-}
-
-.escrita{
-
 }
