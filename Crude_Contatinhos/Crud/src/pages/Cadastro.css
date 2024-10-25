@@ -1,0 +1,25 @@
+.card-contatinho{
+    background-color: #014f86;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+
+.contatinhos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.card-contatinho:hover{
+    transition: 1s;
+    background-color: white;
+    color: #014f86;
+    border: 1px solid #014f86;
+    transform: scale(1.1);
+}
